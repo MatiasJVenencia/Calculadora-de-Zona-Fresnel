@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Zona de Fresnel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de Zona de Fresnel</h1>
+        <label for="distance">Distancia (km):</label>
+        <input type="number" id="distance" placeholder="Ej. 10">
+        
+        <label for="frequency">Frecuencia (GHz):</label>
+        <input type="number" id="frequency" placeholder="Ej. 2.4">
+        
+        <button onclick="calculateFresnel()">Calcular</button>
+        
+        <p id="result"></p>
+    </div>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
