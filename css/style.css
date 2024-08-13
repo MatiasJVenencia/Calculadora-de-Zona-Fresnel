@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d0e8f2; /* Fondo general de la página */
+    background-color: #d0e8f2; 
     padding: 0;
     margin: 0;
     height: 100vh;
@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-    background-color: #ffffff; /* Color de fondo del contenedor */
+    background-color: #ffffff;
     max-width: 400px;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
@@ -41,7 +41,7 @@ input[type="number"] {
 }
 
 button {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     background-color: #28a745;
     color: white;
@@ -56,6 +56,13 @@ button:hover {
 }
 
 p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+H2 {
     font-size: 18px;
     margin-top: 20px;
     text-align: center;

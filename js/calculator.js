@@ -8,5 +8,5 @@ function calculateFresnel() {
     }
 
     let fresnelZone = 8.656 * Math.sqrt(distance / frequency);
-    document.getElementById('result').innerText = `Zona de Fresnel: ${fresnelZone.toFixed(2)} metros`;
+    document.getElementById('result').innerText = `Zona de Fresnel: ${fresnelZone.toFixed(3)} metros`;
 }
